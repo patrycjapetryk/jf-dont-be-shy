@@ -1,0 +1,48 @@
+// colors
+
+$black: #000000;
+$white: #ffffff;
+$dark-grey: #181516;
+$light-grey: #f8f8f8;
+$yellow: #fff155;
+$beige: #bb9482;
+$brown: #583328;
+$blue: #2372f6;
+
+$main-color: $black;
+$second-color: $blue;
+
+// fonts family
+
+$main-font: 'Univers', Arial, sans-serif;
+$second-font: 'DallasPS', Arial, sans-serif;
+
+// fonts size
+
+$global-font-size: 16px;
+$global-font-size-s: 10px;
+$global-font-size-m: 13px;
+$global-font-size-l: 14px;
+$global-line-hight: 1.4;
+$global-font-weight: normal;
+$global-letter-spacing: normal;
+
+// margins and padding
+
+$margin-desktop: 100px;
+$margin-mobile: 50px;
+$padding-mobile: 15px;
+
+// breakpoints
+
+$breakpoint-large-desktop-width: 2560px;
+$breakpoint-desktop-width: 1440px;
+$breakpoint-laptop-width: 1024px;
+$breakpoint-tablet-width: 768px;
+$breakpoint-mobile-width: 455px;
+$breakpoint-small-mobile-width: 375px;
+
+// max & min main width
+
+$main-max-width: 950px;
+$main-min-width: 320px;

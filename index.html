@@ -7,7 +7,381 @@
     <title>Jenny Fairy Don't be shy</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main class="main">
+      <header class="header">
+        <div class="video-gallery">
+          <div class="video-gallery__container">
+            <video
+              class="video-gallery__video video-gallery__video--js"
+              autoplay
+              loop
+              muted
+              playsinline
+            >
+              <source src="./src/assets/video/videoheader.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <img
+          class="header__title-image"
+          src="./src/assets/images/title.svg"
+          alt="title"
+          loading="lazy"
+        />
+        <h2 class="header__title">Capsule collection</h2>
+        <img class="header__logo" src="./src/assets/images/logo.svg" alt="logo" loading="lazy" />
+      </header>
+
+      <section class="video-gallery video-gallery--js">
+        <figure class="video-gallery__container video-gallery__container--js">
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-1-black.mp4" type="video/mp4" />
+          </video>
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-1-beige.mp4" type="video/mp4" />
+          </video>
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-1-brown.mp4" type="video/mp4" />
+          </video>
+        </figure>
+
+        <p class="video-gallery__paragraph">Change color</p>
+
+        <div class="colors">
+          <div class="colors__item colors__item--black colors__item--js"></div>
+          <div class="colors__item colors__item--js"></div>
+          <div class="colors__item colors__item--brown colors__item--js"></div>
+        </div>
+
+        <a class="video-gallery__link" href="#">Zobacz produkty</a>
+      </section>
+
+      <section class="scroll-carousel scroll-carousel--js">
+        <div class="arrows">
+          <div class="arrows__arrow arrows__arrow--left-js">
+            <img
+              class="scroll-carousel__image"
+              src="./src/assets/images/left-arrow.svg"
+              alt="arrow"
+            />
+          </div>
+          <div class="arrows__arrow arrows__arrow--right-js">
+            <img
+              class="scroll-carousel__image"
+              src="./src/assets/images/right-arrow.svg"
+              alt="arrow"
+            />
+          </div>
+        </div>
+
+        <div class="scroll-carousel__wrapper scroll-carousel__wrapper--js">
+          <div class="scroll-carousel__container">
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-1.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-2.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-3.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-6.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-4.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-5.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="video-gallery video-gallery--js">
+        <h3 class="video-gallery__title">SEE OUR PRODUCTS IN 3D</h3>
+
+        <figure class="video-gallery__container video-gallery__container--js">
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-2-beige.mp4" type="video/mp4" />
+          </video>
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-2-brown.mp4" type="video/mp4" />
+          </video>
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-2-black.mp4" type="video/mp4" />
+          </video>
+        </figure>
+
+        <p class="video-gallery__paragraph">Change color</p>
+
+        <div class="colors">
+          <div class="colors__item colors__item--js"></div>
+          <div class="colors__item colors__item--brown colors__item--js"></div>
+          <div class="colors__item colors__item--black colors__item--js"></div>
+        </div>
+
+        <a class="video-gallery__link" href="#">Zobacz produkty</a>
+      </section>
+
+      <section class="video-gallery">
+        <figure class="video-gallery__container">
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/jf-2.mp4" type="video/mp4" />
+          </video>
+        </figure>
+        <a class="video-gallery__link" href="#">Zobacz produkty</a>
+      </section>
+
+      <section class="video-gallery video-gallery--js">
+        <h3 class="video-gallery__title">SEE OUR PRODUCTS IN 3D</h3>
+        <figure class="video-gallery__container video-gallery__container--js">
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-3-black.mp4" type="video/mp4" />
+          </video>
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-3-beige.mp4" type="video/mp4" />
+          </video>
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-3-brown.mp4" type="video/mp4" />
+          </video>
+        </figure>
+
+        <p class="video-gallery__paragraph">Change color</p>
+
+        <div class="colors">
+          <div class="colors__item colors__item--black colors__item--js"></div>
+          <div class="colors__item colors__item--js"></div>
+          <div class="colors__item colors__item--brown colors__item--js"></div>
+        </div>
+
+        <a class="video-gallery__link" href="#">Zobacz produkty</a>
+      </section>
+
+      <section class="scroll-carousel scroll-carousel--js">
+        <div class="arrows">
+          <div class="arrows__arrow arrows__arrow--left-js">
+            <img
+              class="scroll-carousel__image"
+              src="./src/assets/images/left-arrow.svg"
+              alt="arrow"
+            />
+          </div>
+          <div class="arrows__arrow arrows__arrow--right-js">
+            <img
+              class="scroll-carousel__image"
+              src="./src/assets/images/right-arrow.svg"
+              alt="arrow"
+            />
+          </div>
+        </div>
+
+        <figure class="scroll-carousel__wrapper scroll-carousel__wrapper--js">
+          <div class="scroll-carousel__container">
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-4.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-5.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-6.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-1.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-2.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+            <a class="scroll-carousel__item" href="#">
+              <img
+                class="scroll-carousel__image"
+                src="./src/assets/images/packshot-3.jpg"
+                alt="Photo"
+              />
+              <span class="scroll-carousel__link" href="#">Zobacz produkty</span>
+            </a>
+          </div>
+        </figure>
+      </section>
+
+      <section class="video-gallery video-gallery--js">
+        <h3 class="video-gallery__title">SEE OUR PRODUCTS IN 3D</h3>
+        <figure class="video-gallery__container video-gallery__container--js">
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-1-brown.mp4" type="video/mp4" />
+          </video>
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-1-beige.mp4" type="video/mp4" />
+          </video>
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/render-1-black.mp4" type="video/mp4" />
+          </video>
+        </figure>
+
+        <p class="video-gallery__paragraph">Change color</p>
+
+        <div class="colors">
+          <div class="colors__item colors__item--brown colors__item--js"></div>
+          <div class="colors__item colors__item--js"></div>
+          <div class="colors__item colors__item--black colors__item--js"></div>
+        </div>
+
+        <a class="video-gallery__link" href="#">Zobacz produkty</a>
+      </section>
+
+      <section class="video-gallery">
+        <figure class="video-gallery__container">
+          <video
+            class="video-gallery__video video-gallery__video--js"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            <source src="./src/assets/video/jf-3.mp4" type="video/mp4" />
+          </video>
+        </figure>
+      </section>
+
+      <footer class="button">
+        <a class="button__link" href="#">Zobacz wszystkie produkty</a>
+      </footer>
+    </main>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,30 @@
+@import '../_variables';
+@import '../_mixins';
+
+.header {
+  @include main-margin-top;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-family: $second-font;
+    font-size: $global-font-size-s;
+    text-transform: uppercase;
+    margin: 30px 0;
+  }
+
+  &__title-image {
+    width: 45%;
+    @media (max-width: $breakpoint-mobile-width) {
+      width: 75%;
+    }
+  }
+
+  &__logo {
+    width: 110px;
+    margin: 30px 0;
+  }
+}

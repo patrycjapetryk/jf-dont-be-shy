@@ -1,0 +1,33 @@
+@import '_variables';
+@import '_mixins';
+
+@import 'modules/header';
+@import 'modules/video-gallery';
+@import 'modules/scroll-carousel';
+@import 'modules/button';
+
+.main {
+  color: $main-color;
+  font-family: $main-font;
+  font-size: $global-font-size;
+  line-height: $global-line-hight;
+  font-weight: $global-font-weight;
+  letter-spacing: $global-letter-spacing;
+  box-sizing: border-box;
+
+  min-height: 100vh;
+  min-width: $main-min-width;
+  max-width: $main-max-width;
+  margin: 0 auto;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+}
