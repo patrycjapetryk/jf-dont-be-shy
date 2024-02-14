@@ -1,10 +1,9 @@
 
-![ccc-1](https://github.com/patrycjapetryk/jf-dont-be-shy/assets/51820512/d539c8c1-e6af-484f-9ea2-67d4c2f6b9e5)
-
+![ccc-1](https://github.com/patrycjapetryk/jf-dont-be-shy/assets/51820512/d52ed0f7-720f-4ba0-b0ab-44e9df4f792d)
 
 # Jenny Fairy Don't be shy
 
-Landing Page for Jenny Fairy, a fashion brand. It was built using Vanilla JS, PUG, SCSS, and Vite.
+Landing Page for Jenny Fairy, a fashion brand. It was built using Vanilla JS, SCSS, and Vite.
 
 - **Online version**: [[Open live demo]](https://jf-dont-be-shy.netlify.app)
 
